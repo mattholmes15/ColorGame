@@ -49,5 +49,5 @@ jobs:
       with:
         platforms: linux/arm64
         push: ${{ github.event_name != 'pull_request' }}
-        tags: 3.0.0
+        tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}
