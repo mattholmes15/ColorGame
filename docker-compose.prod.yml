@@ -10,7 +10,7 @@ services:
       VIRTUAL_HOST: ${HOST_DOMAIN}
       LETSENCRYPT_HOST: ${HOST_DOMAIN}
       LETSENCRYPT_EMAIL: ${LETSENCRYPT_EMAIL}
-      APP_MAME: colour-game
+      APP_NAME: colour-game
 
 networks:
   default:
