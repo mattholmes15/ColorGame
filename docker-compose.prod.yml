@@ -5,7 +5,7 @@ services:
     restart: always
     ports:
       - "80"
-    container_name: ${APP_NAME}-app
+    container_name: colour-game-app #${APP_NAME}-app
     environment:
       VIRTUAL_HOST: ${HOST_DOMAIN}
       LETSENCRYPT_HOST: ${HOST_DOMAIN}
